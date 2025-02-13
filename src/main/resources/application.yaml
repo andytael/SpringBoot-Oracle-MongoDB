@@ -5,8 +5,6 @@ spring:
     mongodb:
       uri: mongodb://${USERNAME}:${PASSWORD}@G0240F6BEF2A611-${DBNAME}.adb.us-chicago-1.oraclecloudapps.com:27017/${USERNAME}?authMechanism=PLAIN&authSource=$external&ssl=true&retryWrites=false&loadBalanced=true
       auto-index-creation: true
-#      username: ${USERNAME}
-
   threads:
     virtual:
       enabled: true
