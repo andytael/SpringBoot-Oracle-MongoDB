@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: SpringBoot-Oracle-MongoDB
+  data:
+    mongodb:
+      uri: mongodb://TESTUSER:Welcome-12345@G0240F6BEF2A611-MUSKRATDB.adb.us-chicago-1.oraclecloudapps.com:27017/TESTUSER?authMechanism=PLAIN&authSource=$external&ssl=true&retryWrites=false&loadBalanced=true
+      auto-index-creation: true
+  threads:
+    virtual:
+      enabled: true
