@@ -10,3 +10,10 @@ spring:
   threads:
     virtual:
       enabled: true
+
+logging:
+  level:
+    root: INFO
+    org:
+      mongodb:
+        driver: DEBUG
