@@ -16,4 +16,4 @@ logging:
     root: INFO
     org:
       mongodb:
-        driver: DEBUG
+        driver: INFO
