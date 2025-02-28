@@ -25,5 +25,3 @@ BEGIN
     commit;
 END;
 /
-
-mongosh -u testuser -p Welcome-12345 'mongodb://G0240F6BEF2A611-MUSKRATDB.adb.us-chicago-1.oraclecloudapps.com:27017/[user]?authMechanism=PLAIN&authSource=$external&ssl=true&retryWrites=false&loadBalanced=true'
